@@ -18,16 +18,16 @@
             <div class="hero-content flex-col lg:flex-row-reverse">
 
               <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                <div class="card-body">
+                <form class="card-body">
                   <fieldset class="fieldset">
                     <label class="fieldset-label">Acount-Number</label>
-                    <input type="number" class="input" placeholder="Type Your Number" />
+                    <input value="01746090840" id="acount-number" type="number" class="input" placeholder="Type Your Number" required />
                     <label class="fieldset-label">PIN</label>
-                    <input type="pin" class="input" placeholder="Type Your Pin" />
+                    <input value="1234" id="pin" type="pin" class="input" placeholder="Type Your Pin" required />
                     <div><a class="link link-hover">Forgot password?</a></div>
                     <button id="login-btn" class="btn btn-neutral mt-4">Login</button>
                   </fieldset>
-                </div>
+                </form>
               </div>
             </div>
           </div>
