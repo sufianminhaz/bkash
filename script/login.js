@@ -5,11 +5,11 @@ document.getElementById('login-btn').addEventListener('click',function(event){
     if (acountNumber.length === 11) {
         
 
-        if (pinNumber === '1234') {
+        if (pinNumber.length === 4) {
             window.location.href ='./main.html'
 
         } else {
-            alert('vag sala')
+            alert('please input your pin')
         }
 
 
