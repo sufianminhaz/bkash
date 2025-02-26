@@ -16,5 +16,7 @@ function setInnerTextByIdAndValue(id, value){
 }
 
 function handleToggle (id, status){
-    document.getElementById(id).style.display = status
+    document.getElementById(id).style.display = status;
 }
+
+

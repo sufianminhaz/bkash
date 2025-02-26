@@ -10,6 +10,14 @@ const convertedmainbalance = parseFloat(mainbalance);
 if (convertedPin === 1234) {
     const sum = convertedmainbalance - convertedAmount;
     const mainbalance = document.getElementById('main-balance').innerText = sum
+
+    const container = document.getElementById('trasaction-history')
+    const p = document.createElement('p')
+    p.innerText = `cashout ${amount} from this ${acount-number}acount`
+
+
+
+
 } else {
     alert('wrong pin')
 }
